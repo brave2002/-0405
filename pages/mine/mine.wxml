@@ -1,0 +1,17 @@
+<!--pages/mine/mine.wxml-->
+<!-- 头部 -->
+<view class="head">
+  <image src="/img/我的.png" mode=""/>
+  <view>
+    点击登录
+  </view>
+</view>
+<!-- 中间 -->
+<view class="middle">
+  <view class="foot"><image src="/img/足迹选中.png" mode=""/>
+    我的足迹
+  </view>
+  <view class="collect"><image src="/img/收藏.png" mode=""/>
+    我的收藏
+  </view>
+</view>

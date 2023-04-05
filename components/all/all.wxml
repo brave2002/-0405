@@ -1,0 +1,61 @@
+<!--components/Celebrity_live/Celebrity_live.wxml-->
+<!-- 名人直播 -->
+<view class="live">
+    <!-- 标题部分 -->
+    <view class="titleBar">
+      <view class="title">
+      全部
+      </view>
+      <view class="more">
+        查看更多<text>></text>
+      </view>
+    </view>
+    <!-- 内容部分 -->
+    <view class="content">
+      <view class="itembox">
+        <image class="img" src="/img/act1.png" mode=""/>
+        <view class="item">
+          <view class="title2">XXX:在线编程课程</view>
+          <view class="bottom">
+            <view class="stop">截止时间：4月7日下午2点半</view>
+            <view class="place">地点：XXXXXXXX</view>
+            <view class="time">活动时间：4月7日15:00-17:00</view>
+            <view class="state">
+              <view class="in">活动进行中</view>
+              <view class="in">报名中</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="itembox">
+        <image class="img" src="/img/act1.png" mode=""/>
+        <view class="item">
+          <view class="title2">XXX:网络在线课程</view>
+          <view class="bottom">
+            <view class="stop">截止时间：4月7日下午2点半</view>
+            <view class="place">地点：XXXXXXXX</view>
+            <view class="time">活动时间：4月7日15:00-17:00</view>
+            <view class="state">
+              <view class="in">活动进行中</view>
+              <view class="in">报名中</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="itembox">
+        <image class="img" src="/img/act1.png" mode=""/>
+        <view class="item">
+          <view class="title2">XXX:打好防疫战</view>
+          <view class="bottom">
+            <view class="stop">截止时间：4月7日下午2点半</view>
+            <view class="place">地点：XXXXXXXX</view>
+            <view class="time">活动时间：4月7日15:00-17:00</view>
+            <view class="state">
+              <view class="in">活动进行中</view>
+              <view class="in">报名中</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>

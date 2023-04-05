@@ -1,0 +1,30 @@
+/* pages/activity/activity.wxss */
+::-webkit-scrollbar{
+  display: none;
+}
+/* navBar */
+.navbar{
+  padding: 12rpx;
+}
+.scroll{
+  width: 100%;  
+  overflow: hidden;
+  white-space: nowrap;
+}
+.navbar .item{
+  display: inline-block;
+  /* width: 200rpx; */
+  /* background-color: #F7D8C4; */
+  margin-right: 15rpx;
+  text-align: center;
+  width: 150rpx;
+  padding: 10rpx 20rpx;
+  background-color: #eee;
+  color: #555;
+  border-radius: 30rpx;
+}
+/* 添加active */
+.navbar .item.active{
+  color: #ff6500;
+  background-color: #F7D8C4;
+}

@@ -1,0 +1,47 @@
+/* components/Celebrity_live/Celebrity_live.wxss */
+.content{
+  display: flex;
+  flex-direction: column;
+  padding: 0 20rpx;
+}
+.content .itembox{
+  margin-top: 60rpx;
+  display: flex;
+  justify-content: space-between;
+}
+/* 图片 */
+.itembox .img{
+  border-radius: 30rpx;
+  width: 350rpx;
+  height: 250rpx;
+  /* background-color: aqua; */
+  border: 2px solid #fff;
+}
+/* 文字内容 */
+.item{
+  margin-left: 30rpx;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400rpx;
+  padding-top: 20rpx;
+}
+.item .title2{
+  font-size: 40rpx;
+  font-weight: bold;
+  text-align: center;
+}
+.item .bottom{
+  color: #999;
+  font-size: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom .state{
+  border: 1px solid #999;
+  padding: 0 10rpx;
+  box-sizing: border-box;
+  border-radius: 30rpx;
+}

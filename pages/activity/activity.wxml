@@ -1,0 +1,13 @@
+<!--pages/activity/activity.wxml-->
+<!-- 头部 -->
+<view class="navbar">
+  <scroll-view class="scroll" scroll-x="flase">
+    <block wx:for="{{navlist}}" wx:key="index" wx:for-index="in">
+      <view class="item {{flag===in? 'active' : ''}}"  bindtap="getCon" data-index="{{in}}">
+        {{item}}
+      </view>
+    </block>
+  </scroll-view>
+</view>
+
+<aAct></aAct>

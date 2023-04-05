@@ -1,0 +1,46 @@
+<!--components/Celebrity_live/Celebrity_live.wxml-->
+<!-- 名人直播 -->
+<view class="live">
+    <!-- 标题部分 -->
+    <view class="titleBar">
+      <view class="title">
+      名人直播
+      </view>
+      <view class="more">
+        查看更多<text>></text>
+      </view>
+    </view>
+    <!-- 内容部分 -->
+    <view class="content">
+      <view class="itembox" bindtap="gotoLive">
+        <image class="img" src="/img/cos1.png" mode=""/>
+        <view class="item">
+          <view class="title2">XXX:在线编程课程</view>
+          <view class="bottom">
+            <view>18777人看过</view>
+            <view class="state">观看回放</view>
+          </view>
+        </view>
+      </view>
+      <view class="itembox">
+        <image class="img" src="/img/cos2.png" mode=""/>
+        <view class="item">
+          <view class="title2">XXX:网络在线课程</view>
+          <view class="bottom">
+            <view>18777人看过</view>
+            <view class="state">观看回放</view>
+          </view>
+        </view>
+      </view>
+      <view class="itembox">
+        <image class="img" src="/img/cos3.png" mode=""/>
+        <view class="item">
+          <view class="title2">XXX:打好防疫战</view>
+          <view class="bottom">
+            <view>18777人看过</view>
+            <view class="state">观看回放</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>

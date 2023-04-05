@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/activity/activity",
+    "pages/mine/mine",
+    "pages/live/live"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff6500",
+    "navigationBarTitleText": "小杏岭书院",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#ff6500",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/img/首页1.png",
+        "selectedIconPath": "/img/首页1 (1).png"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "text": "活动",
+        "iconPath": "/img/更多1.png",
+        "selectedIconPath": "/img/更多1 (1).png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/img/我的1.png",
+        "selectedIconPath": "/img/我的1 (1).png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "cLive": "/components/Celebrity_live/Celebrity_live",
+    "aAct": "/components/all/all",
+    "detail": "/components/detail/detail"
+  }
+}

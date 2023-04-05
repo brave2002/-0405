@@ -1,0 +1,30 @@
+/* pages/mine/mine.wxss */
+.head image{
+  position: absolute;
+  top: 30rpx;
+  left: calc(50% - 100rpx);
+  /* background-color: aqua; */
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+.head view{
+  padding-top: 250rpx;
+  font-weight: bold;
+  font-size: 50rpx;
+  text-align: center;
+}
+.middle{
+  padding: 0 15rpx;
+}
+.middle .foot,.collect{
+  display: flex;
+  align-items: center;
+  margin: 40rpx 0;
+  border-bottom: 2px solid #ccc;
+}
+.middle image{
+  width: 60rpx;
+  height: 60rpx;
+  /* background-color: aqua; */
+}
